@@ -13,6 +13,4 @@ jobs:
     steps:
       - uses: ncipollo/release-action@v1.12.0
         with:
-          tag: "Release"
-          commit: "main"
           token: ${{ secrets.GITHUB_TOKEN }}
