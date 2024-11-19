@@ -21,7 +21,8 @@ jobs:
   upload-release:
     name: "Upload release"
     needs: zip-repository
-    uses: ncipollo/release-action@v1.12.0
-    with:
-      artifacts: "release.zip"
-      token: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      uses: ncipollo/release-action@v1.12.0
+      with:
+        artifacts: "release.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
