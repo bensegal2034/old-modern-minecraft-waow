@@ -6,17 +6,14 @@ on:
       - "main"
 
 jobs:
-  upload-release:
-    name: "Upload release"
-    runs-on: "ubuntu-latest"
-    
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - uses: ncipollo/release-action@v1.12.0
-        with:
-          tag: "Latest"
-          name: "Commit ${{ github.sha }}"
-          commit: ${{ github.sha }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          allowUpdates: true
-          removeArtifacts: true
-          replacesArtifacts: true
+    - uses: actions/checkout@v3
+    - name: Create a Release
+      uses: elgohr/Github-Release-Action@v5
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        title: Commit ${{ github.sha }}
+        tag: Latest
