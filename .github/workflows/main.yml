@@ -6,17 +6,19 @@ on:
       - "main"
 
 jobs:
-  upload-release:
-    name: "Upload release"
-    runs-on: "ubuntu-latest"
-    permissions:
-      contents: write
-    
+  build:
+    name: Create Release
+    runs-on: ubuntu-latest
     steps:
-      - uses: ncipollo/release-action@v1.12.0
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          tag: "Release ${{ github.ref }}"
-          commit: "main"
-          removeArtifacts: true
-          replacesArtifacts: true
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
