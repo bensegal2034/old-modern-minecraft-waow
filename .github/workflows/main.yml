@@ -9,14 +9,14 @@ jobs:
   zip-repository:
     name: "Zip repository"
     runs-on: "ubuntu-latest"
-
     steps:
-      - uses: actions/checkout@master
-        uses: thedoctor0/zip-release@0.7.5
-        with:
-          type: 'zip'
-          filename: 'release.zip'
-          exclusions: '*.git*'
+    - uses: actions/checkout@master
+    - name: Archive Release
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        type: 'zip'
+        filename: 'release.zip'
+        exclusions: '*.git*'
   
   upload-release:
     name: "Upload release"
@@ -28,3 +28,14 @@ jobs:
         with:
           artifacts: "release.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+steps:
+- uses: actions/checkout@master
+- name: Archive Release
+  uses: thedoctor0/zip-release@0.7.5
+  with:
+    type: 'zip'
+    filename: 'release.zip'
+    exclusions: '*.git* /*node_modules/* .editorconfig'
