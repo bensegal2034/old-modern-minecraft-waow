@@ -1,0 +1,13 @@
+filename = 'MEED-1.20.1-4.9.jar'
+name = 'Moderately Enough Effect Descriptions (MEED) - A JEED Addon'
+side = 'both'
+
+[download]
+hash = '81d22ba180cc3c90f6ffb16b146c1b6c14dbb89e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5715214
+project-id = 918638

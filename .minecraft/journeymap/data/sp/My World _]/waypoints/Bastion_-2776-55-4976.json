@@ -1,0 +1,22 @@
+{
+  "id": "Bastion_-2776-55-4976",
+  "name": "Bastion",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1477330-waypoint-icon.png",
+  "x": -2776,
+  "y": 55,
+  "z": -4976,
+  "r": 233,
+  "g": 117,
+  "b": 46,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

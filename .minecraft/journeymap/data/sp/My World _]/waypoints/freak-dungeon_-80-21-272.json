@@ -1,0 +1,23 @@
+{
+  "id": "freak-dungeon_-80-21-272",
+  "name": "freak dungeon",
+  "groupName": "Waypoints",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--65516-waypoint-icon.png",
+  "x": -80,
+  "y": 21,
+  "z": 272,
+  "r": 255,
+  "g": 0,
+  "b": 20,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Meteor_-256-62-285",
+  "name": "Meteor",
+  "groupName": "Waypoints",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--10839429-waypoint-icon.png",
+  "x": -256,
+  "y": 62,
+  "z": 285,
+  "r": 90,
+  "g": 154,
+  "b": 123,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,13 @@
+filename = 'oooh_pinky-forge-1.20.1-2.0.jar'
+name = 'Oooh, Pinky!'
+side = 'both'
+
+[download]
+hash = '4e82b41573b5f5fbe347f8193ef8469e225abb90'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5282632
+project-id = 468943

@@ -1,0 +1,13 @@
+filename = 'actuallyharvest-1.20.1-1.1.0.9-FORGE.jar'
+name = 'Actually Harvest (right click and XP)'
+side = 'both'
+
+[download]
+hash = '2d2af684d29fb9622e47613eb412cec4956565ee'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5717080
+project-id = 1076278

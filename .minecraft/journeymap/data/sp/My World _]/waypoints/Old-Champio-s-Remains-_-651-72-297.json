@@ -1,0 +1,23 @@
+{
+  "id": "Old-Champio-s-Remains-_-651-72-297",
+  "name": "Old Champio\u0027s Remains ",
+  "groupName": "Waypoints",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--130520-waypoint-icon.png",
+  "x": -651,
+  "y": 72,
+  "z": 297,
+  "r": 254,
+  "g": 2,
+  "b": 40,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

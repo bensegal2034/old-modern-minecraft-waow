@@ -1,0 +1,13 @@
+filename = 'occultism-1.20.1-1.140.1.jar'
+name = 'Occultism'
+side = 'both'
+
+[download]
+hash = '58127e0b9669375662c87303f7c84ed502ba5369'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5844288
+project-id = 361026

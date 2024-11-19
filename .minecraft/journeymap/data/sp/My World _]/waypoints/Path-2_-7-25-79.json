@@ -1,0 +1,23 @@
+{
+  "id": "Path-2_-7-25-79",
+  "name": "Path 2",
+  "groupName": "Waypoints",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--9189518-waypoint-icon.png",
+  "x": -7,
+  "y": -25,
+  "z": 79,
+  "r": 115,
+  "g": 199,
+  "b": 114,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

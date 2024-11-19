@@ -1,0 +1,13 @@
+filename = 'AppliedFlux-1.20-1.1.9-forge.jar'
+name = 'Applied Flux'
+side = 'both'
+
+[download]
+hash = 'c2ad7626c3f30a9b07d7a62143a42abb851964ba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5772439
+project-id = 965012

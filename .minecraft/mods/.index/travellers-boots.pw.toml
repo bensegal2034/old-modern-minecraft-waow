@@ -1,0 +1,13 @@
+filename = 'TravellersBootsReloaded-1.20.1-2.1.1-forge.jar'
+name = "Traveller's Boots"
+side = 'both'
+
+[download]
+hash = 'cf7904a9fdad98729dec7ea7d6ffc439af34bc46'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5279305
+project-id = 321996

@@ -1,0 +1,22 @@
+{
+  "id": "left-off-at_-110-4-1276",
+  "name": "left off at",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--129792-waypoint-icon.png",
+  "x": -110,
+  "y": -4,
+  "z": 1276,
+  "r": 254,
+  "g": 5,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

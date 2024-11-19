@@ -1,0 +1,60 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "terramity:terramity_guidebook": {
+      "viewedEntries": [
+        "terramity:overview/introduction",
+        "terramity:overview/accessories",
+        "terramity:overview/credits",
+        "terramity:overview/explosives",
+        "terramity:overview/progession_guide",
+        "terramity:overview/multiplayer",
+        "terramity:guns/ammo",
+        "terramity:guns/gun_types",
+        "terramity:guns/controls",
+        "terramity:misc/warp_pipes"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "mffs:handbook": {
+      "viewedEntries": [
+        "mffs:getting_started/gathering_resources"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "irons_spellbooks:iss_guide_book": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "goety:witches_brew": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "industrialforegoing:industrial_foregoing": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "amethyst_imbuement:glistering_tome": {
+      "viewedEntries": [
+        "amethyst_imbuement:weapons/sniper_bow",
+        "amethyst_imbuement:altars/crystal_altar",
+        "amethyst_imbuement:altars/imbuing_table"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:getting_started/spell_casting"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

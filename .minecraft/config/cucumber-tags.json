@@ -1,0 +1,16 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:ingots/aluminum": "techreborn:aluminum_ingot",
+  "forge:ingots/tungsten": "techreborn:tungsten_ingot",
+  "forge:ingots/mithril": "null",
+  "forge:ingots/iridium": "techreborn:iridium_ingot",
+  "forge:dusts/niter": "thermal:niter_dust",
+  "forge:ingots/chrome": "null",
+  "forge:silicon": "enderio:silicon",
+  "forge:dusts/saltpeter": "bloodmagic:saltpeter",
+  "forge:ingots/titanium": "techreborn:titanium_ingot",
+  "forge:rubber": "witherproofed:rubber",
+  "forge:ingots/platinum": "techreborn:platinum_ingot",
+  "forge:ingots/graphite": "null",
+  "forge:gems/peridot": "techreborn:peridot_gem"
+}

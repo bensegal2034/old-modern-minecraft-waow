@@ -1,0 +1,13 @@
+filename = 'soul-fire-d-forge-1.20.1-4.0.6.jar'
+name = "Soul fire'd"
+side = 'both'
+
+[download]
+hash = '4172e6e5a3e0d0008a60733b4d2bfd6efa1a9505'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5821495
+project-id = 662413
