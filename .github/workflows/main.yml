@@ -6,27 +6,17 @@ on:
       - "main"
 
 jobs:
-  zip-repository:
-    name: "Zip repository"
-    runs-on: "ubuntu-latest"
-    steps:
-    - uses: actions/checkout@master
-    - name: Archive Release
-      uses: thedoctor0/zip-release@0.7.5
-      with:
-        type: "zip"
-        filename: "release.zip"
-        exclusions: "*.git*"
-  
   upload-release:
     name: "Upload release"
-    needs: zip-repository
     runs-on: "ubuntu-latest"
+    permissions:
+      contents: write
     
     steps:
       - uses: ncipollo/release-action@v1.12.0
         with:
-          artifacts: "release.zip"
-          tag: "Release"
-          commit: "main"
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: "Release ${{ github.ref }}"
+          commit: "main"
+          removeArtifacts: true
+          replacesArtifacts: true
