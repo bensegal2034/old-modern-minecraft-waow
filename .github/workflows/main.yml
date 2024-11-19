@@ -1,23 +1,24 @@
-name: "create-release"
+name: "pre-release"
 
 on:
   push:
     branches:
-      - "main"
-
-permissions:
-  packages: write
-  contents: write
+      - "master"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  pre-release:
+    name: "Pre Release"
+    runs-on: "ubuntu-latest"
+
     steps:
-    - uses: actions/checkout@v3
-    - name: Create a Release
-      uses: elgohr/Github-Release-Action@v5
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        title: "Commit ${{ github.sha }}"
-        tag: "Latest"
+      # ...
+      - name: "Build & test"
+        run: |
+          echo "done!"
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "Latest"
+          prerelease: true
+          title: "Commit ${{ github.sha }}"
