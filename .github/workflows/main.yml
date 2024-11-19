@@ -6,8 +6,8 @@ on:
       - "main"
 
 jobs:
-  zip-repository:
-    name: "Zip repository"
+  create-release:
+    name: "Create release"
     runs-on: "ubuntu-latest"
 
     steps:
@@ -18,14 +18,10 @@ jobs:
           type: 'zip'
           filename: 'release.zip'
           exclusions: '*.git*'
-
-  create-release:
-    name: "Create release"
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-    - uses: actions/checkout@v3
-    - uses: ncipollo/release-action@v1
-      with:
-        artifacts: "release.zip"
+          
+      - uses: actions/checkout@v3
+      - uses: ncipollo/release-action@v1
+      - name: "Upload zip file"
+        with:
+          artifacts: "release.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
