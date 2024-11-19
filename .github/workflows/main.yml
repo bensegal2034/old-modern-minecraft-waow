@@ -21,6 +21,8 @@ jobs:
   upload-release:
     name: "Upload release"
     needs: zip-repository
+    runs-on: "ubuntu-latest"
+    
     steps:
       - uses: ncipollo/release-action@v1.12.0
         with:
