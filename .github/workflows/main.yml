@@ -17,3 +17,6 @@ jobs:
           name: "Commit ${{ github.sha }}"
           commit: ${{ github.sha }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          allowUpdates: true
+          removeArtifacts: true
+          replacesArtifacts: true
