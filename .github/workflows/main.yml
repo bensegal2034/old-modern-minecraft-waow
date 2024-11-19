@@ -15,5 +15,4 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "Latest"
-          prerelease: true
-          title: "Commit ${{ github.sha }}"
+          title: "Development Build"
