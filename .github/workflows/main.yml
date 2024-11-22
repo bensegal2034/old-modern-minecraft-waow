@@ -9,13 +9,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
+        with:
+          path: repo
 
       - uses: thedoctor0/zip-release@0.7.5
         with:
           type: "zip"
-          filename: "release.zip"
+          filename: "zipfile/release.zip"
+          directory: "${{ github.workspace }}"
+          path: "${{ github.workspace }}/repo"
+          command: "mkdir -p zipfile"
           exclusions: "*.git* *.github*"
-          command: "pwd"
 
   create-release:
     name: "Create release"
