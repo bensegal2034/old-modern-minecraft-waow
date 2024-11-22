@@ -13,7 +13,7 @@ jobs:
         with:
           type: "zip"
           filename: "release.zip"
-          path: "zipfile/"
+          directory: "zipfile/"
           exclusions: "*.git* *.github*"
           command: "mkdir -p zipfile"
 
