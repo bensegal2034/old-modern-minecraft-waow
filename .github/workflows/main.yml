@@ -14,6 +14,7 @@ jobs:
           type: "zip"
           filename: "release.zip"
           path: "zipfile/"
+          exclusions: "*.git* *.github*"
 
   create-release:
     name: "Create release"
