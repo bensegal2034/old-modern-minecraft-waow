@@ -35,3 +35,4 @@ jobs:
           tag: "Latest"
           name: "Current Build"
           artifacts: "${{ github.workspace }}/zipfile/release.zip"
+          allowUpdates: true
