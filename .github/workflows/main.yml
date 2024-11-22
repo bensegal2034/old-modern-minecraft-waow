@@ -15,6 +15,7 @@ jobs:
           filename: "release.zip"
           path: "zipfile/"
           exclusions: "*.git* *.github*"
+          command: "mkdir -p zipfile"
 
   create-release:
     name: "Create release"
