@@ -34,4 +34,4 @@ jobs:
           automatic_release_tag: "Latest"
           title: "Current Build"
           files: |
-            ${{ github.workspace }}/release.zip
+            ${{ github.workspace }}/zipfile/release.zip
