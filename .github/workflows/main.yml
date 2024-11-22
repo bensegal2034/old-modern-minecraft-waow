@@ -13,6 +13,7 @@ jobs:
         with:
           type: "zip"
           filename: "release.zip"
+          path: "zipfile/"
 
   create-release:
     name: "Create release"
@@ -27,4 +28,4 @@ jobs:
           automatic_release_tag: "Latest"
           title: "Current Build"
           files: |
-            release.zip
+            zipfile/release.zip
