@@ -9,6 +9,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
+
       - uses: thedoctor0/zip-release@0.7.5
         with:
           type: "zip"
@@ -29,4 +30,4 @@ jobs:
           automatic_release_tag: "Latest"
           title: "Current Build"
           files: |
-            home/runner/work/modern-minecraft-waow/modern-minecraft-waow/release.zip
+            ${{ github.workspace }}/release.zip
