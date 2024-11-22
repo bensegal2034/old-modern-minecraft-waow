@@ -29,4 +29,4 @@ jobs:
           automatic_release_tag: "Latest"
           title: "Current Build"
           files: |
-            /home/runner/work/modern-minecraft-waow/modern-minecraft-waow/release.zip
+            home/runner/work/modern-minecraft-waow/modern-minecraft-waow/release.zip
